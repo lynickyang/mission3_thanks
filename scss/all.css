@@ -1,0 +1,386 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: 'Noto Sans TC', sans-serif;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*css reset */
+img {
+  max-width: 100%;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.fz48 {
+  font-size: 48px;
+  line-height: normal;
+}
+
+.fz32 {
+  font-size: 32px;
+  line-height: normal;
+}
+
+.fz24 {
+  font-size: 24px;
+  line-height: normal;
+}
+
+.fz20 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.fz18 {
+  font-size: 18px;
+  line-height: normal;
+}
+
+.fz16 {
+  font-size: 16px;
+  line-height: normal;
+}
+
+.fz12 {
+  font-size: 12px;
+}
+
+.color-green {
+  color: #56C4C5;
+}
+
+.color-black {
+  color: #221E1F;
+}
+
+.color-gray {
+  color: #747474;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-red {
+  color: #FF5D50;
+}
+
+.bgc-green {
+  background-color: #56C4C5;
+}
+
+.bgc-red {
+  background-color: #FF5D50;
+}
+
+.bgc-gray {
+  background-color: #DDDDDD;
+}
+
+.textct {
+  text-align: center;
+}
+
+.textbl {
+  font-weight: bold;
+}
+
+.padt8 {
+  padding-top: 8px;
+}
+
+.padt10 {
+  padding-top: 10px;
+}
+
+.padt16 {
+  padding-top: 16px;
+}
+
+.padt24 {
+  padding-top: 24px;
+}
+
+.padt48 {
+  padding-top: 48px;
+}
+
+.padb24 {
+  padding-bottom: 24px;
+}
+
+.padb16 {
+  padding-bottom: 16px;
+}
+
+.padb32 {
+  padding-bottom: 32px;
+}
+
+.padl8 {
+  padding-left: 8px;
+}
+
+.padl16 {
+  padding-left: 16px;
+}
+
+.padl32 {
+  padding-left: 32px;
+}
+
+.padl42 {
+  padding-left: 42px;
+}
+
+.padl55 {
+  padding-left: 55px;
+}
+
+.padr8 {
+  padding-right: 8px;
+}
+
+.padr16 {
+  padding-right: 16px;
+}
+
+.padr42 {
+  padding-right: 42px;
+}
+
+.padr55 {
+  padding-right: 55px;
+}
+
+.magt16 {
+  margin-top: 16px;
+}
+
+.magt24 {
+  margin-top: 24px;
+}
+
+.magt60 {
+  margin-top: 60px;
+}
+
+.magb16 {
+  margin-bottom: 16px;
+}
+
+.magb24 {
+  margin-bottom: 24px;
+}
+
+.magb32 {
+  margin-bottom: 32px;
+}
+
+.magb48 {
+  margin-bottom: 48px;
+}
+
+.magb60 {
+  margin-bottom: 60px;
+}
+
+.magb180 {
+  margin-bottom: 180px;
+}
+
+.mag0auto {
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  width: 128px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.btnPrice {
+  display: block;
+  width: 130px;
+  height: 50px;
+  border: 1px solid #56C4C5;
+  line-height: 50px;
+  margin-right: 16px;
+}
+
+.radious {
+  border-radius: 5px;
+}
+
+.radious12 {
+  border-radius: 12px;
+}
+
+.radious20 {
+  border-radius: 20px;
+}
+
+.radious27 {
+  border-radius: 27px;
+}
+
+.radious-cir {
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.topLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.topLogo img {
+  height: 40px;
+}
+
+.homefooter {
+  height: 350px;
+}
+
+.indexBG {
+  position: absolute;
+  width: 860px;
+  height: 786px;
+  top: 0px;
+  right: 0px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  z-index: -1;
+}
+
+.topLogo {
+  position: relative;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+  position: relative;
+}
+
+.banner img {
+  width: 50%;
+}
+
+.banner .bannerWord {
+  width: 50%;
+}
+
+.homefooter {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home_footer.svg");
+  background-position: center top;
+  background-repeat: repeat-x;
+  margin-top: 60px;
+}
+
+.homefooter h1 {
+  padding-top: 260px;
+  padding-bottom: 50px;
+}
+
+.homefooter a:hover {
+  background-color: #FF5D50;
+}
+
+.copyright {
+  margin-top: 80px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 375px) {
+  .indexBG {
+    top: 400px;
+    left: 8px;
+    width: 350px;
+    height: 305px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg);
+    z-index: -1;
+  }
+  .container {
+    max-width: calc(375px - 40px);
+  }
+  .homefooter h1 {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=all.css.map */

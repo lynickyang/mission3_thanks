@@ -1,0 +1,64 @@
+.indexBG{
+	position: absolute;
+	width: 860px;
+	height: 786px;
+	top:0px;
+	right: 0px;
+	background-image:url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	z-index: -1;
+}
+
+
+
+.topLogo{
+	position: relative;
+}
+.banner{
+	display: flex;
+	align-items: center;
+	height: 500px;
+	position: relative;
+	img{width: 50%;}
+	.bannerWord{width: 50%;}
+}
+
+
+.homefooter{
+	background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home_footer.svg");
+	background-position: center top;
+	background-repeat:repeat-x;
+	h1{
+		padding-top: 260px;
+		padding-bottom: 50px;
+	}
+	a:hover{background-color: #FF5D50;}
+	margin-top: 60px;
+}
+
+
+.copyright{
+	margin-top: 80px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+@media (max-width:375px){
+	.indexBG{
+		top: 400px;
+		left: 8px;
+		width: 350px;
+		height: 305px;
+		background-image:url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg);
+		z-index: -1;
+	}
+
+	.container{
+		max-width: calc(375px - 40px);
+	}
+
+	.homefooter h1{
+		font-size: 24px;
+	}
+
+}
